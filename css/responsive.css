@@ -39,11 +39,22 @@
     }
     .sub-menu{
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sub-menu ul li a{
+        font-size: 12px;
+        margin-right: 5px;
+        margin-left: -5px;
     }
     .sub-social-menu{
         width: 100%;
         position: static;
         margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .header-logo-area{
         display: block;
