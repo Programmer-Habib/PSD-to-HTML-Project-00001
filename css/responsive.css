@@ -1,0 +1,107 @@
+/* ipad */
+@media screen and (max-width: 810px){
+    .sub-menu{
+        width: 60%;
+    }
+    .sub-social-menu{
+        width: 40%;
+    }
+    .nav ul li a{
+        font-size: 12px;
+    }
+    .bx-wrapper .bx-controls-auto,.bx-wrapper .bx-pager{visibility: hidden;}
+    .up-container{
+        display: block;
+    }
+    .up-container-left{
+        width: 100%;
+    }
+    .up-container-right{
+        width: 100%;
+    }
+    .up-container-left img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .down-container-left h1{
+        font-size: 32px;
+    }
+    .down-container-right{
+        width: 30%;
+        text-align: right;
+    }
+}
+
+/* for mobile */
+@media screen and (max-width: 375px){
+    .sub-menu-area{
+        display: block;
+    }
+    .sub-menu{
+        width: 100%;
+    }
+    .sub-social-menu{
+        width: 100%;
+        position: static;
+        margin-top: 10px;
+    }
+    .header-logo-area{
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-top: 100px;
+    }
+    .header-logo{
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .header-logo a img{
+        width: 60%;
+    }
+    .header-serch{
+        position: static;
+        margin-bottom: 50px;
+        text-align: center;
+        padding-right: 0;
+    }
+    .hero-area{
+        display: block;
+    }
+    .content{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .slider-area{
+        width: 100%;
+    }
+    .down-container{
+        display: block;
+    }
+    .down-container-left{
+        width: 100%;
+    }
+    .down-container-right{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer-wrapper{
+        display: block;
+    }
+    .footer-heading{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .top-footer-about-section,.top-footer-link-section,.top-footer-blog-section,.top-footer-form-section{
+        width: 100%;
+    }
+    .bottom-footer{
+        display: block;
+    }
+    .bottom-footer p{
+        font-size: 12px;
+        text-align: center;
+    }
+}
